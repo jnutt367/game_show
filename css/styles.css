@@ -134,7 +134,12 @@ button {
   right: 0;
   border-radius: 5px;
 }
-
+#qwerty {
+	background-color: transparent;
+	display: grid;
+	grid-template-columns: 1fr;
+	margin-right: 2em;
+}
 .title {
   color: #FFF;
 }
