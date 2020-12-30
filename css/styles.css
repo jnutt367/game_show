@@ -113,6 +113,7 @@ button {
 }
 
 .btn__reset {
+  cursor: pointer;
   padding: 8px;
   margin: 50px auto;
   background: #FFFFFF;
@@ -126,7 +127,7 @@ button {
   display: flex;
   flex-direction: column;
   position: fixed;
-  color: #FFFFFF;
+  color: black;
   justify-content: center;
   top: 0;
   bottom: 0;
