@@ -6,7 +6,7 @@
 :root {
   --color-win: #f0ec09;
   --color-lose: #351010;
-  --color-start: #04c9fa;
+  --color-start: black;
   --color-neutral: #445069;
   --color-neutral-light: #D2D2D2;
   --color-keys: #37474F;
