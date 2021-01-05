@@ -1,0 +1,155 @@
+* {
+	box-sizing: border-box;
+	background-color: transparent;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+	background-color: #0D0E0F;
+}
+
+.logo {
+	right: 80%;
+	position: absolute;
+	cursor: pointer;
+	transition: transforms;
+}
+.logo:hover {
+	transition-duration: 3s;
+	transform: scale(1.1) rotate(90deg);
+}
+
+.main-nav {
+	padding-top: 25px;
+	font-family: 'Montserrat';
+	font-weight: 300;
+	display: flex;
+	justify-content: flex-end;
+	list-style-type: none;
+}
+.main-nav li a {
+	padding: 15px;
+	text-decoration: none;
+	color: skyblue;
+}
+.main-nav li a:hover {
+	font-weight: 900;
+	color: white;
+}
+.main-nav li a:active {
+	color: lightgrey;
+}
+.header {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+.header img {
+	padding-top: 100px;
+	padding-bottom: 25px;
+	width 300px;
+}
+.contact-info {
+	text-align: center;
+	color: skyblue;
+}
+.contact-info p a {
+	color: white;
+	text-decoration: none;
+	font-weight: 400;
+}
+.description {
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
+.social-icons { 
+	display: flex;
+	justify-content: space-evenly; 
+	padding-bottom: 75px;
+}
+section {
+	background-color: white;
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.bio h1{
+	background-color: white;
+	color: skyblue;
+	padding-left: 25px;
+}
+.bio p {
+	text-align: left;
+	font-weight: 500;
+	padding-left: 50px;
+}
+.skills {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+}
+.work {
+	margin-top: 0;
+	background-color: #f8f8ff;
+	padding-left: 25px;
+	padding-right: 25px;
+	color: skyblue;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	margin-bottom: 25px;
+}
+.work img {
+	margin-left: 50px;
+	height: 300px;
+	width: 500px;
+	border: 3px inset silver;
+}
+.work button {
+	text-align: center;
+	margin-left: 70px;
+	margin-bottom: 25px;
+	color: white;
+	background-color: skyblue;
+	cursor: pointer;
+	transition: transforms;
+	transition-duration: 3s;
+}
+.work button:hover {
+	transform: scale(1.05);
+}
+.footer {
+	padding-top: 75px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 500px;
+}
+.footer img {
+	height: 50px;
+	width: 50px;
+}
+
+.footer button {
+	margin-left: -25px;
+	height: 30px;
+	width: 100px; 
+	color: white;
+	background-color: skyblue;
+	border-radius: 5px;
+	cursor: pointer;
+}
+@media only screen and (max-width: 650px) {
+  .work {
+	  display: grid;
+	  justify-content: center;
+	  align-items: center;
+	  grid-template-columns: 1fr;
+  }
+  .work img {
+	  height: 250px;
+	  width: 250px;	  
+  }
+}
